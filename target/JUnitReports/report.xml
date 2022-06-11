@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.206">
+    <testcase classname="feature to test homepage functionality" name="Check url navigates to the homepage" time="0.016">
+        <system-out><![CDATA[Given user is on homepage...................................................passed
+When user clicks on profile icon............................................passed
+And clicks on register and login button.....................................passed
+Then user is navigated to the register page.................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

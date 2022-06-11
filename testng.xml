@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+
+
+<listener class-name="Uniform.Listeners"/>
+<listener class-name="Resources.ExtentReporting"/>
+
+
+
+
+</listeners>
+<test name="Validating Homepage ">
+<classes>
+<class name="Uniform.ValidateHomepage"/>
+</classes>
+</test>
+<test name="Validating Registerpage ">
+<classes>
+<class name="Uniform.ValidateRegisterpage"/>
+</classes>
+</test>
+<test name="Validating Loginpage ">
+<classes>
+<class name="Uniform.ValidateLoginpage"/>
+</classes>
+
+</test>
+<test name="Validating PantStorepage ">
+<classes>
+<class name="Uniform.ValidatePantStorepage"/>
+</classes>
+</test>
+<test name="Validating ShirtsStorepage ">
+<classes>
+<class name="Uniform.ValidateShirtsStorepage"/>
+</classes>
+</test>
+<test name="Validating ShortsStorepage ">
+<classes>
+<class name="Uniform.ValidateShortsStorepage"/>
+</classes>
+</test>
+
+</suite>
